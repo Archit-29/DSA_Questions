@@ -10,13 +10,13 @@ public:
        int left=0;
        int right=nums1.size()-1;
 
-       while(left<=right){
-        if(nums1[left]<=nums1[right]){
-            left++;
-            right--;
-        }else{
-            swap(nums1[left],nums1[right]);
+    for(int i=0;i<nums1.size();i++){
+        for(int j=i+1;j<nums1.size();j++){
+            if(nums1[i]>nums1[j]){
+                swap(nums1[i],nums1[j]);
+            }
         }
-       }
+    }
+    
     }
 };
