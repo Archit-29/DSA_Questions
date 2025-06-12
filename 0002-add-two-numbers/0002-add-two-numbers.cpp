@@ -39,7 +39,10 @@ public:
                     sum=sum%10;
                     nums.push_back(sum);
                 }
-                else nums.push_back(sum);
+                else {
+                    nums.push_back(sum);
+                    flag=0;
+                    }
            }else{
             nums.push_back(l1->val);
            }
@@ -54,7 +57,10 @@ public:
                     sum=sum%10;
                     nums.push_back(sum);
                 }
-                else nums.push_back(sum);
+                else {
+                    nums.push_back(sum);
+                    flag=0;
+                }
            }else{
             nums.push_back(l2->val);
            }
