@@ -11,20 +11,17 @@
  */
 class Solution {
 public:
+
+    int helper(TreeNode*node){
+        if(node==NULL) return 0;
+        int left=helper(node->left);
+        int right=helper(node->right);
+
+        return 1+max(left,right);
+    }
+
     int maxDepth(TreeNode* root) {
-        queue<TreeNode*>q;
-        int depth=0;
-        q.push(root);
-        while(!q.empty()){
-            int size=q.size();
-            depth++;
-            for(int i=0;i<size;i++){
-                TreeNode*node=q.front();
-                q.pop();
-                if(node->left) q.push(node->left);
-                if(node->right) q.push(node->right);
-            }
-        }
-        return depth;
+        return helper(root);
+    
     }
 };
