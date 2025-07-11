@@ -14,17 +14,19 @@ public:
 
     void helper(TreeNode*node,TreeNode*&prev){
         if(node==NULL) return;
-
+       
         helper(node->right,prev);
         helper(node->left,prev);
 
         node->right=prev;
         node->left=NULL;
-        prev=node;
+        prev=node;   
+
     }
+
 
     void flatten(TreeNode* root) {
         TreeNode*prev=NULL;
-        helper(root,prev);   
+        helper(root,prev);
     }
 };
