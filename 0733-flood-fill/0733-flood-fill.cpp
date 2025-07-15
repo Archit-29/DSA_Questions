@@ -1,35 +1,25 @@
 class Solution {
 public:
+
+    void helper(int row,int col, int color,int ogcolor,vector<vector<int>>& image){
+        int m=image.size();
+        int n=image[0].size();
+        if(row>=m || row<0 || col>=n || col<0) return;
+        if(image[row][col]==color) return;
+        if(image[row][col]!=ogcolor) return;
+
+        image[row][col]=color;
+        helper(row+1,col,color,ogcolor,image);
+        helper(row-1,col,color,ogcolor,image);
+        helper(row,col+1,color,ogcolor,image);
+        helper(row,col-1,color,ogcolor,image);
+    }
+
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
-        int n=image.size();
-        int m=image[0].size();
-        queue<pair<int,int>>q;
+        int ogcolor=image[sr][sc];
+        if(ogcolor==color) return image;
 
-        int startColor = image[sr][sc];
-        if(color==startColor) return image;
-
-        q.push({sr,sc});
-        image[sr][sc]=color;
-
-        int delrow[4]={-1,0,1,0};
-        int delcol[4]={0,1,0,-1};
-
-        while(!q.empty()){
-            int row=q.front().first;
-            int col=q.front().second;
-            q.pop();
-
-            for(int i=0;i<4;i++){
-                int nrow=row+delrow[i];
-                int ncol=col+delcol[i];
-
-                if(nrow>=0 && nrow<n && ncol>=0 && ncol<m && image[nrow][ncol]==startColor){
-                        q.push({nrow,ncol});
-                        image[nrow][ncol]=color;
-                    }
-            }
-            
-        }
+        helper(sr,sc,color,ogcolor,image);
         return image;
     }
 };
