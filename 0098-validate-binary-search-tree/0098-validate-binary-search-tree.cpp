@@ -10,19 +10,18 @@
  * };
  */
 class Solution {
-public:
-
-    bool helper(TreeNode*node,long Lowerbound, long Upperbound){
+private:
+    bool helper(TreeNode*node, long lowerBound, long upperBound){
         if(node==NULL) return true;
 
-        if(node->val <= Lowerbound || node->val >= Upperbound) return false;
+        if(node->val >=upperBound || node->val<=lowerBound) return false;
 
-     return helper(node->left,Lowerbound,node->val) && helper(node->right,node->val,Upperbound);
+        return helper(node->left,lowerBound,node->val) && helper(node->right,node->val,upperBound);
     }
-
+public:
     bool isValidBST(TreeNode* root) {
-        long Upperbound=LONG_MAX;
-        long Lowerbound=LONG_MIN;
-        return helper(root,Lowerbound,Upperbound);
+        long upperbound=LONG_MAX;
+        long lowerbound=LONG_MIN;
+        return helper(root,lowerbound,upperbound);
     }
 };
