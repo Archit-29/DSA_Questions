@@ -9,49 +9,48 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-class prop{
-
+class prop {
     public:
-        bool isbst;
-        int maximum;
-        int minimum;
+        bool isBst;
+        int maxVal;
+        int minVal;
         int sum;
-        prop(){
-            isbst=true;
-            maximum=INT_MIN;
-            minimum=INT_MAX;
-            sum=0;
-        }
+
+            prop(){
+                isBst=true;
+                maxVal=INT_MIN;
+                minVal=INT_MAX;
+                sum=0;
+            }
 };
+
 
 class Solution {
 public:
-
-    prop getSum(TreeNode*node,int&ans){
-        if(node==NULL) return prop();
-
+    prop checkSumBST(TreeNode* root,int &ans) {
+        if(root==NULL) return prop();
         prop pd;
-        prop pdl= getSum(node->left,ans);
-        prop pdr=getSum(node->right,ans);
+        prop pdLeft=checkSumBST(root->left,ans);
+        prop pdRight=checkSumBST(root->right,ans);
 
-            if(pdl.isbst==true && pdr.isbst==true && pdl.maximum<node->val && node->val<pdr.minimum){
-                pd.sum= node->val + pdl.sum + pdr.sum;
-                pd.isbst=true;
-                pd.minimum=min(node->val,pdl.minimum);
-                pd.maximum=max(node->val,pdr.maximum);
-            }else{
-                pd.isbst=false;
-                pd.sum=0;
-            }
-
-            ans=max(ans,pd.sum);
-            return pd;
+        if(pdLeft.isBst==true && pdRight.isBst==true && pdLeft.maxVal<root->val && root->val<pdRight.minVal){
+            pd.isBst=true;
+            pd.maxVal=max(root->val,pdLeft.maxVal);
+            pd.minVal=min(root->val,pdRight.minVal);
+            pd.sum=root->val+pdLeft.sum+pdRight.sum;
+        }
+        else{
+            pd.isBst=false;
+            pd.sum=0;
+        }
+        ans=max(ans,pd.sum);
+        return pd;
     }
 
-
-    int maxSumBST(TreeNode* root) {
+    int maxSumBST(TreeNode*root){
         int ans=INT_MIN;
-        getSum(root,ans);
-        return ans>0 ? ans : 0;
+        checkSumBST(root,ans);
+        return ans;
     }
+    
 };
