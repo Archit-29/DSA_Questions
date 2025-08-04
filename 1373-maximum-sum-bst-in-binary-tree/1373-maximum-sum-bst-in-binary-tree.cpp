@@ -35,8 +35,8 @@ public:
 
         if(pdLeft.isBst==true && pdRight.isBst==true && pdLeft.maxVal<root->val && root->val<pdRight.minVal){
             pd.isBst=true;
-            pd.maxVal=max(root->val,pdLeft.maxVal);
-            pd.minVal=min(root->val,pdRight.minVal);
+            pd.maxVal=max(root->val,pdRight.maxVal);
+            pd.minVal=min(root->val,pdLeft.minVal);
             pd.sum=root->val+pdLeft.sum+pdRight.sum;
         }
         else{
