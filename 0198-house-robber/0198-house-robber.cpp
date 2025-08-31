@@ -1,7 +1,7 @@
 class Solution {
 public:
 
-    int f(int index,vector<int>&nums,vector<int>dp){
+    int f(int index,vector<int>&nums,vector<int>&dp){
         if(index==0) return nums[index];
         if(index<0) return 0;
         if(dp[index]!=-1) return dp[index];
