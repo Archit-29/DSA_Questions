@@ -1,7 +1,13 @@
 class Solution {
 public:
+    vector<vector<string>> partition(string s) {
+        vector<vector<string>>ans;
+        vector<string>ds;
+        helper(0,s,ds,ans);
+        return ans;
+    }
 
-    void helper(int index, string&s, vector<string>&ds, vector<vector<string>>&ans){
+    void helper(int index,string s,vector<string>ds,vector<vector<string>>&ans ){
         if(index==s.size()){
             ans.push_back(ds);
             return;
@@ -16,19 +22,12 @@ public:
         }
     }
 
-    bool isPalindrome(int start, int end, string&s){
+    bool isPalindrome(int start,int end, string s){
         while(start<=end){
-            if(s[start]!=s[end])return false;
+            if(s[start]!=s[end]) return false;
             start++;
             end--;
         }
         return true;
-    }
-
-    vector<vector<string>> partition(string s) {
-        vector<vector<string>>ans;
-        vector<string>ds;
-        helper(0,s,ds,ans);
-        return ans;
     }
 };
