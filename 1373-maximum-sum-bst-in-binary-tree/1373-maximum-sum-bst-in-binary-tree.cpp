@@ -9,48 +9,50 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-class prop {
+class Prop{
     public:
-        bool isBst;
-        int maxVal;
-        int minVal;
-        int sum;
+    bool isBST;
+    int minVal;
+    int maxVal;
+    int sum;
 
-            prop(){
-                isBst=true;
-                maxVal=INT_MIN;
-                minVal=INT_MAX;
-                sum=0;
-            }
+    Prop(){
+        isBST=true;
+        minVal=INT_MAX;
+        maxVal=INT_MIN;
+        sum=0;
+    }
 };
-
 
 class Solution {
 public:
-    prop checkSumBST(TreeNode* root,int &ans) {
-        if(root==NULL) return prop();
-        prop pd;
-        prop pdLeft=checkSumBST(root->left,ans);
-        prop pdRight=checkSumBST(root->right,ans);
 
-        if(pdLeft.isBst==true && pdRight.isBst==true && pdLeft.maxVal<root->val && root->val<pdRight.minVal){
-            pd.isBst=true;
-            pd.maxVal=max(root->val,pdRight.maxVal);
-            pd.minVal=min(root->val,pdLeft.minVal);
-            pd.sum=root->val+pdLeft.sum+pdRight.sum;
+    Prop helper(TreeNode*node, int &ans){
+
+        if(node==NULL) return Prop();
+
+        Prop left= helper(node->left,ans);
+        Prop right= helper(node->right, ans);
+        Prop curr;
+
+        if(left.isBST && right.isBST && node->val>left.maxVal && node->val< right.minVal){
+            curr.isBST=true;
+            curr.minVal=min(node->val,left.minVal);
+            curr.maxVal=max(node->val,right.maxVal);
+            curr.sum= node->val+left.sum+right.sum;
         }
         else{
-            pd.isBst=false;
-            pd.sum=0;
+            curr.isBST=false;
+            curr.sum=0;
         }
-        ans=max(ans,pd.sum);
-        return pd;
+        
+        ans=max(ans,curr.sum);
+        return curr;
     }
 
-    int maxSumBST(TreeNode*root){
-        int ans=INT_MIN;
-        checkSumBST(root,ans);
-        return ans;
+    int maxSumBST(TreeNode* root) {
+       int ans=0;
+       helper(root,ans);
+       return ans;
     }
-    
 };
