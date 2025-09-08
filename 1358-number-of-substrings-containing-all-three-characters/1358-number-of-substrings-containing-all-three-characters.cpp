@@ -6,11 +6,11 @@ public:
         int l=0;
         int count=0;
 
-        while(r<s.size()){    
+        while(r<s.size()){
             mp[s[r]]++;
 
-            while(mp['a']>=1 && mp['b']>=1 && mp['c']>=1){   
-                count+=s.size()-r;
+            while(mp['a']>=1 && mp['b']>=1 && mp['c']>=1){
+                count += s.size()-r;
                 mp[s[l]]--;
                 l++;
             }
