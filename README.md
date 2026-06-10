@@ -5,6 +5,7 @@
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0001-two-sum](https://github.com/Archit-29/DSA_Questions/tree/main/0001-two-sum/) | Easy |
 | [0015-3sum](https://github.com/Archit-29/DSA_Questions/tree/main/0015-3sum/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
@@ -14,4 +15,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0015-3sum](https://github.com/Archit-29/DSA_Questions/tree/main/0015-3sum/) | Medium |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0001-two-sum](https://github.com/Archit-29/DSA_Questions/tree/main/0001-two-sum/) | Easy |
 <!---LeetCode Topics End-->
