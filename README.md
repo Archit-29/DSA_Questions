@@ -43,4 +43,13 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0053-maximum-subarray](https://github.com/Archit-29/DSA_Questions/tree/main/0053-maximum-subarray/) | Medium |
+| [0062-unique-paths](https://github.com/Archit-29/DSA_Questions/tree/main/0062-unique-paths/) | Medium |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0062-unique-paths](https://github.com/Archit-29/DSA_Questions/tree/main/0062-unique-paths/) | Medium |
+## Combinatorics
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0062-unique-paths](https://github.com/Archit-29/DSA_Questions/tree/main/0062-unique-paths/) | Medium |
 <!---LeetCode Topics End-->
