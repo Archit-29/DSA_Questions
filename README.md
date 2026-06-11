@@ -10,6 +10,7 @@
 | [0053-maximum-subarray](https://github.com/Archit-29/DSA_Questions/tree/main/0053-maximum-subarray/) | Medium |
 | [0075-sort-colors](https://github.com/Archit-29/DSA_Questions/tree/main/0075-sort-colors/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/Archit-29/DSA_Questions/tree/main/0128-longest-consecutive-sequence/) | Medium |
+| [0485-max-consecutive-ones](https://github.com/Archit-29/DSA_Questions/tree/main/0485-max-consecutive-ones/) | Easy |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
