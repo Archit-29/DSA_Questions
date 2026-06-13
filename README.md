@@ -14,11 +14,13 @@
 | [0560-subarray-sum-equals-k](https://github.com/Archit-29/DSA_Questions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0930-binary-subarrays-with-sum](https://github.com/Archit-29/DSA_Questions/tree/main/0930-binary-subarrays-with-sum/) | Medium |
 | [1004-max-consecutive-ones-iii](https://github.com/Archit-29/DSA_Questions/tree/main/1004-max-consecutive-ones-iii/) | Medium |
+| [2149-rearrange-array-elements-by-sign](https://github.com/Archit-29/DSA_Questions/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0015-3sum](https://github.com/Archit-29/DSA_Questions/tree/main/0015-3sum/) | Medium |
 | [0075-sort-colors](https://github.com/Archit-29/DSA_Questions/tree/main/0075-sort-colors/) | Medium |
+| [2149-rearrange-array-elements-by-sign](https://github.com/Archit-29/DSA_Questions/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -73,4 +75,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1004-max-consecutive-ones-iii](https://github.com/Archit-29/DSA_Questions/tree/main/1004-max-consecutive-ones-iii/) | Medium |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2149-rearrange-array-elements-by-sign](https://github.com/Archit-29/DSA_Questions/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
 <!---LeetCode Topics End-->
