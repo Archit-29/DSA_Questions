@@ -11,77 +11,29 @@
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        int flag=0;
-        int sum=0;
-        vector<int>nums;
+        ListNode*dummy= new ListNode(0);
+        ListNode*current=dummy;
 
-        while(l1!=NULL && l2!=NULL){
-            if(flag==1)  {
-                sum=l1->val+l2->val+1;
-                flag=0;
+        int carry=0;
+
+        while(l1 || l2 || carry){
+            int sum=0;
+
+            if(l1){
+                sum+=l1->val;
+                l1=l1->next;
             }
-            else sum=l1->val+l2->val;
 
-            if(sum>=10){
-               flag=sum/10;
-                sum=sum%10;
+            if(l2){
+                sum+=l2->val;
+                l2=l2->next;
             }
-            nums.push_back(sum);
-            l1=l1->next;
-            l2=l2->next;
-        }
-        sum=0;
-        while(l1!=NULL){
-           if(flag==1){
-            sum=l1->val+1;
-                if(sum>=10){
-                    flag=sum/10;
-                    sum=sum%10;
-                    nums.push_back(sum);
-                }
-                else {
-                    nums.push_back(sum);
-                    flag=0;
-                    }
-           }else{
-            nums.push_back(l1->val);
-           }
-           l1=l1->next;
-        }
-            sum=0;
-         while(l2!=NULL){
-            if(flag==1){
-            sum=l2->val+1;
-                if(sum>=10){
-                    flag=sum/10;
-                    sum=sum%10;
-                    nums.push_back(sum);
-                }
-                else {
-                    nums.push_back(sum);
-                    flag=0;
-                }
-           }else{
-            nums.push_back(l2->val);
-           }
-           l2=l2->next;
-        }
 
-        ListNode*start=new ListNode();
-        ListNode*dummy=start;
-       for(int i=0;i<nums.size();i++){
-            ListNode*temp=new ListNode();
-            temp->val=nums[i];
-            dummy->next=temp;
-            dummy=temp;
-       }
-
-       if(flag==1){
-        ListNode*temp=new ListNode();
-        temp->val=1;
-        dummy->next=temp;
-        dummy=temp;
-       }
-       return start->next;
+            sum+=carry;
+            carry = sum / 10;
+            current->next= new ListNode(sum %10);
+            current=current->next;
+        }
+        return dummy->next;
     }
 };
