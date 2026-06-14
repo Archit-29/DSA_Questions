@@ -79,4 +79,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Archit-29/DSA_Questions/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
+## Linked List
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0206-reverse-linked-list](https://github.com/Archit-29/DSA_Questions/tree/main/0206-reverse-linked-list/) | Easy |
+## Recursion
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0206-reverse-linked-list](https://github.com/Archit-29/DSA_Questions/tree/main/0206-reverse-linked-list/) | Easy |
 <!---LeetCode Topics End-->
