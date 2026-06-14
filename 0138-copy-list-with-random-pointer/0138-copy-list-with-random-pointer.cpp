@@ -16,9 +16,9 @@ public:
 
 class Solution {
 public:
-
-    void createCopy(Node*head){
+    void createList(Node*head){
         Node*temp=head;
+
         while(temp){
             Node*copy=new Node(temp->val);
             copy->next=temp->next;
@@ -27,24 +27,27 @@ public:
         }
     }
 
-    void  connectRandomPointer(Node*head){
+    void connectRandomPtr(Node*head){
         Node*temp=head;
         while(temp){
             Node*copy=temp->next;
             if(temp->random) copy->random=temp->random->next;
-            else copy->random=NULL;
+            else{
+                copy->random=NULL;
+            }
             temp=temp->next->next;
         }
     }
 
     Node*copyList(Node*head){
-        Node*dummy= new Node(0);
-        Node*res=dummy;
         Node*temp=head;
+        Node*dummy=new Node(0);
+        Node*res=dummy;
 
         while(temp){
             res->next=temp->next;
             res=res->next;
+
             temp->next=temp->next->next;
             temp=temp->next;
         }
@@ -52,8 +55,8 @@ public:
     }
 
     Node* copyRandomList(Node* head) {
-        createCopy(head);
-        connectRandomPointer(head);
+        createList(head);
+        connectRandomPtr(head);
         return copyList(head);
     }
 };
