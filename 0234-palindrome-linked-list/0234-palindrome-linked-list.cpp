@@ -10,11 +10,12 @@
  */
 class Solution {
 public:
+    ListNode* isReverse(ListNode*head){
+        ListNode*temp=head;
+        ListNode*prev=NULL;
 
-    ListNode* reverseList(ListNode*temp){
-        ListNode* prev=NULL;
         while(temp!=NULL){
-            ListNode* front=temp->next;
+            ListNode*front=temp->next;
             temp->next=prev;
             prev=temp;
             temp=front;
@@ -23,22 +24,23 @@ public:
     }
 
     bool isPalindrome(ListNode* head) {
-        ListNode*slow=head;
-        ListNode*fast=head;
+       ListNode*fast=head;
+       ListNode*slow=head;
 
-        while(fast->next!=NULL && fast->next->next!=NULL){
-            slow=slow->next;
-            fast=fast->next->next;
-        } 
+       while(fast->next && fast->next->next){
+         fast=fast->next->next;
+         slow=slow->next;
+       }
+       ListNode*newHead=isReverse(slow->next);
+       fast=head;
 
-        ListNode* newHead=reverseList(slow->next);
-        ListNode* first=head;
-        ListNode*second = newHead;
-        while(second!=NULL){
-            if(first->val!=second->val) return false;
-            first=first->next;
-            second=second->next;
-        }
-        return true;
+       while(newHead){
+         if(newHead->val != fast->val){
+            return false;
+         }
+         newHead=newHead->next;
+         fast=fast->next;
+       }
+       return true;
     }
 };
