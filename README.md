@@ -54,6 +54,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Archit-29/DSA_Questions/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0131-palindrome-partitioning](https://github.com/Archit-29/DSA_Questions/tree/main/0131-palindrome-partitioning/) | Medium |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -69,6 +70,7 @@
 | ------- | ------- |
 | [0053-maximum-subarray](https://github.com/Archit-29/DSA_Questions/tree/main/0053-maximum-subarray/) | Medium |
 | [0062-unique-paths](https://github.com/Archit-29/DSA_Questions/tree/main/0062-unique-paths/) | Medium |
+| [0131-palindrome-partitioning](https://github.com/Archit-29/DSA_Questions/tree/main/0131-palindrome-partitioning/) | Medium |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -125,6 +127,7 @@
 | [0039-combination-sum](https://github.com/Archit-29/DSA_Questions/tree/main/0039-combination-sum/) | Medium |
 | [0040-combination-sum-ii](https://github.com/Archit-29/DSA_Questions/tree/main/0040-combination-sum-ii/) | Medium |
 | [0090-subsets-ii](https://github.com/Archit-29/DSA_Questions/tree/main/0090-subsets-ii/) | Medium |
+| [0131-palindrome-partitioning](https://github.com/Archit-29/DSA_Questions/tree/main/0131-palindrome-partitioning/) | Medium |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
