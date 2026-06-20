@@ -8,6 +8,7 @@
 | [0001-two-sum](https://github.com/Archit-29/DSA_Questions/tree/main/0001-two-sum/) | Easy |
 | [0015-3sum](https://github.com/Archit-29/DSA_Questions/tree/main/0015-3sum/) | Medium |
 | [0039-combination-sum](https://github.com/Archit-29/DSA_Questions/tree/main/0039-combination-sum/) | Medium |
+| [0040-combination-sum-ii](https://github.com/Archit-29/DSA_Questions/tree/main/0040-combination-sum-ii/) | Medium |
 | [0053-maximum-subarray](https://github.com/Archit-29/DSA_Questions/tree/main/0053-maximum-subarray/) | Medium |
 | [0075-sort-colors](https://github.com/Archit-29/DSA_Questions/tree/main/0075-sort-colors/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/Archit-29/DSA_Questions/tree/main/0128-longest-consecutive-sequence/) | Medium |
@@ -121,4 +122,5 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0039-combination-sum](https://github.com/Archit-29/DSA_Questions/tree/main/0039-combination-sum/) | Medium |
+| [0040-combination-sum-ii](https://github.com/Archit-29/DSA_Questions/tree/main/0040-combination-sum-ii/) | Medium |
 <!---LeetCode Topics End-->
