@@ -1,24 +1,24 @@
 class Solution {
 public:
-    vector<vector<int>> subsetsWithDup(vector<int>& arr) {
-        vector<int>ds;
-        vector<vector<int>>ans;
-        sort(arr.begin(),arr.end());
+    void helper(int index, vector<int>& nums, vector<int>& ds,
+                vector<vector<int>>& ans) {
 
-        findSubset(0,arr,ds,ans);
-        return ans;
-    }
+            ans.push_back(ds);
 
-    void findSubset(int ind, vector<int>&arr, vector<int>&ds, vector<vector<int>>&ans){
-        ans.push_back(ds);
-
-        for(int i=ind;i<arr.size();i++){
-            
-            if(i>ind && arr[i]==arr[i-1])continue;
-            ds.push_back(arr[i]);
-
-            findSubset(i+1,arr,ds,ans);
+        for (int i = index; i < nums.size(); i++) {
+            if (i > index && nums[i] == nums[i - 1])
+                continue;
+            ds.push_back(nums[i]);
+            helper(i + 1, nums, ds, ans);
             ds.pop_back();
         }
+    }
+
+    vector<vector<int>> subsetsWithDup(vector<int>& nums) {
+        vector<int> ds;
+        vector<vector<int>> ans;
+        sort(nums.begin(),nums.end());
+        helper(0, nums, ds, ans);
+        return ans;
     }
 };
