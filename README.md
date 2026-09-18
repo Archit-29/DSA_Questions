@@ -132,4 +132,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0090-subsets-ii](https://github.com/Archit-29/DSA_Questions/tree/main/0090-subsets-ii/) | Medium |
+## Floyd's Cycle Finding Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0141-linked-list-cycle](https://github.com/Archit-29/DSA_Questions/tree/main/0141-linked-list-cycle/) | Easy |
 <!---LeetCode Topics End-->
