@@ -14,6 +14,7 @@
 | [0090-subsets-ii](https://github.com/Archit-29/DSA_Questions/tree/main/0090-subsets-ii/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/Archit-29/DSA_Questions/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0485-max-consecutive-ones](https://github.com/Archit-29/DSA_Questions/tree/main/0485-max-consecutive-ones/) | Easy |
+| [0496-next-greater-element-i](https://github.com/Archit-29/DSA_Questions/tree/main/0496-next-greater-element-i/) | Easy |
 | [0560-subarray-sum-equals-k](https://github.com/Archit-29/DSA_Questions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0930-binary-subarrays-with-sum](https://github.com/Archit-29/DSA_Questions/tree/main/0930-binary-subarrays-with-sum/) | Medium |
 | [1004-max-consecutive-ones-iii](https://github.com/Archit-29/DSA_Questions/tree/main/1004-max-consecutive-ones-iii/) | Medium |
@@ -44,6 +45,7 @@
 | [0138-copy-list-with-random-pointer](https://github.com/Archit-29/DSA_Questions/tree/main/0138-copy-list-with-random-pointer/) | Medium |
 | [0141-linked-list-cycle](https://github.com/Archit-29/DSA_Questions/tree/main/0141-linked-list-cycle/) | Easy |
 | [0160-intersection-of-two-linked-lists](https://github.com/Archit-29/DSA_Questions/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
+| [0496-next-greater-element-i](https://github.com/Archit-29/DSA_Questions/tree/main/0496-next-greater-element-i/) | Easy |
 | [0560-subarray-sum-equals-k](https://github.com/Archit-29/DSA_Questions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0930-binary-subarrays-with-sum](https://github.com/Archit-29/DSA_Questions/tree/main/0930-binary-subarrays-with-sum/) | Medium |
 ## Union-Find
@@ -121,6 +123,7 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0234-palindrome-linked-list](https://github.com/Archit-29/DSA_Questions/tree/main/0234-palindrome-linked-list/) | Easy |
+| [0496-next-greater-element-i](https://github.com/Archit-29/DSA_Questions/tree/main/0496-next-greater-element-i/) | Easy |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -136,4 +139,8 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0141-linked-list-cycle](https://github.com/Archit-29/DSA_Questions/tree/main/0141-linked-list-cycle/) | Easy |
+## Monotonic Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0496-next-greater-element-i](https://github.com/Archit-29/DSA_Questions/tree/main/0496-next-greater-element-i/) | Easy |
 <!---LeetCode Topics End-->
