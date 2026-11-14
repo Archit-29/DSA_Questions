@@ -14,6 +14,7 @@
 | [0075-sort-colors](https://github.com/Archit-29/DSA_Questions/tree/main/0075-sort-colors/) | Medium |
 | [0090-subsets-ii](https://github.com/Archit-29/DSA_Questions/tree/main/0090-subsets-ii/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/Archit-29/DSA_Questions/tree/main/0128-longest-consecutive-sequence/) | Medium |
+| [0283-move-zeroes](https://github.com/Archit-29/DSA_Questions/tree/main/0283-move-zeroes/) | Easy |
 | [0485-max-consecutive-ones](https://github.com/Archit-29/DSA_Questions/tree/main/0485-max-consecutive-ones/) | Easy |
 | [0496-next-greater-element-i](https://github.com/Archit-29/DSA_Questions/tree/main/0496-next-greater-element-i/) | Easy |
 | [0560-subarray-sum-equals-k](https://github.com/Archit-29/DSA_Questions/tree/main/0560-subarray-sum-equals-k/) | Medium |
@@ -32,6 +33,7 @@
 | [0141-linked-list-cycle](https://github.com/Archit-29/DSA_Questions/tree/main/0141-linked-list-cycle/) | Easy |
 | [0160-intersection-of-two-linked-lists](https://github.com/Archit-29/DSA_Questions/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/Archit-29/DSA_Questions/tree/main/0234-palindrome-linked-list/) | Easy |
+| [0283-move-zeroes](https://github.com/Archit-29/DSA_Questions/tree/main/0283-move-zeroes/) | Easy |
 | [0344-reverse-string](https://github.com/Archit-29/DSA_Questions/tree/main/0344-reverse-string/) | Easy |
 | [0876-middle-of-the-linked-list](https://github.com/Archit-29/DSA_Questions/tree/main/0876-middle-of-the-linked-list/) | Easy |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Archit-29/DSA_Questions/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
