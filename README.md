@@ -29,6 +29,7 @@
 | [0141-linked-list-cycle](https://github.com/Archit-29/DSA_Questions/tree/main/0141-linked-list-cycle/) | Easy |
 | [0160-intersection-of-two-linked-lists](https://github.com/Archit-29/DSA_Questions/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/Archit-29/DSA_Questions/tree/main/0234-palindrome-linked-list/) | Easy |
+| [0344-reverse-string](https://github.com/Archit-29/DSA_Questions/tree/main/0344-reverse-string/) | Easy |
 | [0876-middle-of-the-linked-list](https://github.com/Archit-29/DSA_Questions/tree/main/0876-middle-of-the-linked-list/) | Easy |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Archit-29/DSA_Questions/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
 ## Sorting
@@ -57,6 +58,7 @@
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Archit-29/DSA_Questions/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0131-palindrome-partitioning](https://github.com/Archit-29/DSA_Questions/tree/main/0131-palindrome-partitioning/) | Medium |
+| [0344-reverse-string](https://github.com/Archit-29/DSA_Questions/tree/main/0344-reverse-string/) | Easy |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
