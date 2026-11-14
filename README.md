@@ -19,6 +19,7 @@
 | [0496-next-greater-element-i](https://github.com/Archit-29/DSA_Questions/tree/main/0496-next-greater-element-i/) | Easy |
 | [0560-subarray-sum-equals-k](https://github.com/Archit-29/DSA_Questions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0930-binary-subarrays-with-sum](https://github.com/Archit-29/DSA_Questions/tree/main/0930-binary-subarrays-with-sum/) | Medium |
+| [0977-squares-of-a-sorted-array](https://github.com/Archit-29/DSA_Questions/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 | [1004-max-consecutive-ones-iii](https://github.com/Archit-29/DSA_Questions/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Archit-29/DSA_Questions/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
 ## Two Pointers
@@ -36,12 +37,14 @@
 | [0283-move-zeroes](https://github.com/Archit-29/DSA_Questions/tree/main/0283-move-zeroes/) | Easy |
 | [0344-reverse-string](https://github.com/Archit-29/DSA_Questions/tree/main/0344-reverse-string/) | Easy |
 | [0876-middle-of-the-linked-list](https://github.com/Archit-29/DSA_Questions/tree/main/0876-middle-of-the-linked-list/) | Easy |
+| [0977-squares-of-a-sorted-array](https://github.com/Archit-29/DSA_Questions/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Archit-29/DSA_Questions/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0015-3sum](https://github.com/Archit-29/DSA_Questions/tree/main/0015-3sum/) | Medium |
 | [0075-sort-colors](https://github.com/Archit-29/DSA_Questions/tree/main/0075-sort-colors/) | Medium |
+| [0977-squares-of-a-sorted-array](https://github.com/Archit-29/DSA_Questions/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
