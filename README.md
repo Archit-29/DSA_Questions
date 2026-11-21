@@ -15,6 +15,7 @@
 | [0090-subsets-ii](https://github.com/Archit-29/DSA_Questions/tree/main/0090-subsets-ii/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/Archit-29/DSA_Questions/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0169-majority-element](https://github.com/Archit-29/DSA_Questions/tree/main/0169-majority-element/) | Easy |
+| [0229-majority-element-ii](https://github.com/Archit-29/DSA_Questions/tree/main/0229-majority-element-ii/) | Medium |
 | [0283-move-zeroes](https://github.com/Archit-29/DSA_Questions/tree/main/0283-move-zeroes/) | Easy |
 | [0485-max-consecutive-ones](https://github.com/Archit-29/DSA_Questions/tree/main/0485-max-consecutive-ones/) | Easy |
 | [0496-next-greater-element-i](https://github.com/Archit-29/DSA_Questions/tree/main/0496-next-greater-element-i/) | Easy |
@@ -46,6 +47,7 @@
 | [0015-3sum](https://github.com/Archit-29/DSA_Questions/tree/main/0015-3sum/) | Medium |
 | [0075-sort-colors](https://github.com/Archit-29/DSA_Questions/tree/main/0075-sort-colors/) | Medium |
 | [0169-majority-element](https://github.com/Archit-29/DSA_Questions/tree/main/0169-majority-element/) | Easy |
+| [0229-majority-element-ii](https://github.com/Archit-29/DSA_Questions/tree/main/0229-majority-element-ii/) | Medium |
 | [0977-squares-of-a-sorted-array](https://github.com/Archit-29/DSA_Questions/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -57,6 +59,7 @@
 | [0141-linked-list-cycle](https://github.com/Archit-29/DSA_Questions/tree/main/0141-linked-list-cycle/) | Easy |
 | [0160-intersection-of-two-linked-lists](https://github.com/Archit-29/DSA_Questions/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [0169-majority-element](https://github.com/Archit-29/DSA_Questions/tree/main/0169-majority-element/) | Easy |
+| [0229-majority-element-ii](https://github.com/Archit-29/DSA_Questions/tree/main/0229-majority-element-ii/) | Medium |
 | [0496-next-greater-element-i](https://github.com/Archit-29/DSA_Questions/tree/main/0496-next-greater-element-i/) | Easy |
 | [0560-subarray-sum-equals-k](https://github.com/Archit-29/DSA_Questions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0930-binary-subarrays-with-sum](https://github.com/Archit-29/DSA_Questions/tree/main/0930-binary-subarrays-with-sum/) | Medium |
@@ -174,8 +177,10 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0169-majority-element](https://github.com/Archit-29/DSA_Questions/tree/main/0169-majority-element/) | Easy |
+| [0229-majority-element-ii](https://github.com/Archit-29/DSA_Questions/tree/main/0229-majority-element-ii/) | Medium |
 ## Boyer–Moore Majority Vote Algorithm
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0169-majority-element](https://github.com/Archit-29/DSA_Questions/tree/main/0169-majority-element/) | Easy |
+| [0229-majority-element-ii](https://github.com/Archit-29/DSA_Questions/tree/main/0229-majority-element-ii/) | Medium |
 <!---LeetCode Topics End-->
