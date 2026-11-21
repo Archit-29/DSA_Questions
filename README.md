@@ -12,6 +12,7 @@
 | [0031-next-permutation](https://github.com/Archit-29/DSA_Questions/tree/main/0031-next-permutation/) | Medium |
 | [0039-combination-sum](https://github.com/Archit-29/DSA_Questions/tree/main/0039-combination-sum/) | Medium |
 | [0040-combination-sum-ii](https://github.com/Archit-29/DSA_Questions/tree/main/0040-combination-sum-ii/) | Medium |
+| [0042-trapping-rain-water](https://github.com/Archit-29/DSA_Questions/tree/main/0042-trapping-rain-water/) | Hard |
 | [0053-maximum-subarray](https://github.com/Archit-29/DSA_Questions/tree/main/0053-maximum-subarray/) | Medium |
 | [0075-sort-colors](https://github.com/Archit-29/DSA_Questions/tree/main/0075-sort-colors/) | Medium |
 | [0090-subsets-ii](https://github.com/Archit-29/DSA_Questions/tree/main/0090-subsets-ii/) | Medium |
@@ -34,6 +35,7 @@
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Archit-29/DSA_Questions/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Archit-29/DSA_Questions/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0031-next-permutation](https://github.com/Archit-29/DSA_Questions/tree/main/0031-next-permutation/) | Medium |
+| [0042-trapping-rain-water](https://github.com/Archit-29/DSA_Questions/tree/main/0042-trapping-rain-water/) | Hard |
 | [0061-rotate-list](https://github.com/Archit-29/DSA_Questions/tree/main/0061-rotate-list/) | Medium |
 | [0075-sort-colors](https://github.com/Archit-29/DSA_Questions/tree/main/0075-sort-colors/) | Medium |
 | [0125-valid-palindrome](https://github.com/Archit-29/DSA_Questions/tree/main/0125-valid-palindrome/) | Easy |
@@ -93,6 +95,7 @@
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0042-trapping-rain-water](https://github.com/Archit-29/DSA_Questions/tree/main/0042-trapping-rain-water/) | Hard |
 | [0053-maximum-subarray](https://github.com/Archit-29/DSA_Questions/tree/main/0053-maximum-subarray/) | Medium |
 | [0062-unique-paths](https://github.com/Archit-29/DSA_Questions/tree/main/0062-unique-paths/) | Medium |
 | [0131-palindrome-partitioning](https://github.com/Archit-29/DSA_Questions/tree/main/0131-palindrome-partitioning/) | Medium |
@@ -145,6 +148,7 @@
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0042-trapping-rain-water](https://github.com/Archit-29/DSA_Questions/tree/main/0042-trapping-rain-water/) | Hard |
 | [0234-palindrome-linked-list](https://github.com/Archit-29/DSA_Questions/tree/main/0234-palindrome-linked-list/) | Easy |
 | [0496-next-greater-element-i](https://github.com/Archit-29/DSA_Questions/tree/main/0496-next-greater-element-i/) | Easy |
 ## Backtracking
@@ -165,6 +169,7 @@
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0042-trapping-rain-water](https://github.com/Archit-29/DSA_Questions/tree/main/0042-trapping-rain-water/) | Hard |
 | [0496-next-greater-element-i](https://github.com/Archit-29/DSA_Questions/tree/main/0496-next-greater-element-i/) | Easy |
 ## Tree
 | Problem Name | Difficulty |
