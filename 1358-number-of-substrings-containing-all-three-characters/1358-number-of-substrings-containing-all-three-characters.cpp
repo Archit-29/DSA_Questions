@@ -10,7 +10,7 @@ public:
             mp[s[r]]++;
 
             while(mp['a']>=1 && mp['b']>=1 && mp['c']>=1){
-                count += s.size()-r;
+                count+=s.size()-r;
                 mp[s[l]]--;
                 l++;
             }
