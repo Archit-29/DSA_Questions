@@ -26,6 +26,7 @@
 | [0930-binary-subarrays-with-sum](https://github.com/Archit-29/DSA_Questions/tree/main/0930-binary-subarrays-with-sum/) | Medium |
 | [0977-squares-of-a-sorted-array](https://github.com/Archit-29/DSA_Questions/tree/main/0977-squares-of-a-sorted-array/) | Easy |
 | [1004-max-consecutive-ones-iii](https://github.com/Archit-29/DSA_Questions/tree/main/1004-max-consecutive-ones-iii/) | Medium |
+| [1248-count-number-of-nice-subarrays](https://github.com/Archit-29/DSA_Questions/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Archit-29/DSA_Questions/tree/main/2149-rearrange-array-elements-by-sign/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
@@ -72,6 +73,7 @@
 | [0496-next-greater-element-i](https://github.com/Archit-29/DSA_Questions/tree/main/0496-next-greater-element-i/) | Easy |
 | [0560-subarray-sum-equals-k](https://github.com/Archit-29/DSA_Questions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0930-binary-subarrays-with-sum](https://github.com/Archit-29/DSA_Questions/tree/main/0930-binary-subarrays-with-sum/) | Medium |
+| [1248-count-number-of-nice-subarrays](https://github.com/Archit-29/DSA_Questions/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Archit-29/DSA_Questions/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
@@ -95,6 +97,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/Archit-29/DSA_Questions/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0930-binary-subarrays-with-sum](https://github.com/Archit-29/DSA_Questions/tree/main/0930-binary-subarrays-with-sum/) | Medium |
 | [1004-max-consecutive-ones-iii](https://github.com/Archit-29/DSA_Questions/tree/main/1004-max-consecutive-ones-iii/) | Medium |
+| [1248-count-number-of-nice-subarrays](https://github.com/Archit-29/DSA_Questions/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Archit-29/DSA_Questions/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
@@ -113,6 +116,7 @@
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/Archit-29/DSA_Questions/tree/main/0002-add-two-numbers/) | Medium |
 | [0062-unique-paths](https://github.com/Archit-29/DSA_Questions/tree/main/0062-unique-paths/) | Medium |
+| [1248-count-number-of-nice-subarrays](https://github.com/Archit-29/DSA_Questions/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 ## Combinatorics
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -123,6 +127,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/Archit-29/DSA_Questions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0930-binary-subarrays-with-sum](https://github.com/Archit-29/DSA_Questions/tree/main/0930-binary-subarrays-with-sum/) | Medium |
 | [1004-max-consecutive-ones-iii](https://github.com/Archit-29/DSA_Questions/tree/main/1004-max-consecutive-ones-iii/) | Medium |
+| [1248-count-number-of-nice-subarrays](https://github.com/Archit-29/DSA_Questions/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
