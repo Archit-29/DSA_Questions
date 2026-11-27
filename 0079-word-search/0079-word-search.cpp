@@ -3,30 +3,27 @@ public:
     bool exist(vector<vector<char>>& board, string word) {
         int m=board.size();
         int n=board[0].size();
+        vector<vector<char>> vis(m, vector<char>(n, '0'));
 
-        for(int i=0;i<m;i++){
-            for(int j=0;j<n;j++){
-                 if(board[i][j] == word[0] && dfs(board, word, i, j, 0)) {
-                    return true;
-                 }
+        for(int row=0;row<m;row++){
+            for(int col=0;col<n;col++){
+                if(board[row][col]==word[0] && dfs(row,col,0,m,n,vis,board,word)) return true;
             }
         }
+
         return false;
     }
 
-    bool dfs(vector<vector<char>>& board, string word,int row, int col , int i){
-        
-        if(i==word.size()) return true;
+    bool dfs(int row,int col, int index,int m, int n, vector<vector<char>>&vis, vector<vector<char>>& board,string word){
 
-        if(row<0 || row>=board.size() || col<0 || col>=board[0].size() || board[row][col]!=word[i]) return false;
-        board[row][col]='0';
+        if(index==word.size()) return true;
 
-        bool status = dfs(board, word, row+1, col, i+1) || 
-                      dfs(board, word, row, col+1, i+1) ||
-                      dfs(board, word, row-1, col, i+1) ||
-                      dfs(board, word, row, col-1, i+1);
+        if(row<0 || row>=m || col<0 || col>=n || board[row][col]!=word[index] || vis[row][col]!='0') return false;
 
-        board[row][col]=word[i];
-        return status;
+        vis[row][col]='1';
+        bool res= dfs(row+1,col,index+1,m,n,vis,board,word) || dfs(row-1,col,index+1,m,n,vis,board,word) || dfs(row,col+1,index+1,m,n,vis,board,word) || dfs(row,col-1,index+1,m,n,vis,board,word);
+        vis[row][col]='0';
+
+        return res;
     }
 };
