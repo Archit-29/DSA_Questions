@@ -17,6 +17,7 @@
 | [0053-maximum-subarray](https://github.com/Archit-29/DSA_Questions/tree/main/0053-maximum-subarray/) | Medium |
 | [0075-sort-colors](https://github.com/Archit-29/DSA_Questions/tree/main/0075-sort-colors/) | Medium |
 | [0078-subsets](https://github.com/Archit-29/DSA_Questions/tree/main/0078-subsets/) | Medium |
+| [0079-word-search](https://github.com/Archit-29/DSA_Questions/tree/main/0079-word-search/) | Medium |
 | [0090-subsets-ii](https://github.com/Archit-29/DSA_Questions/tree/main/0090-subsets-ii/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/Archit-29/DSA_Questions/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0169-majority-element](https://github.com/Archit-29/DSA_Questions/tree/main/0169-majority-element/) | Easy |
@@ -89,6 +90,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/Archit-29/DSA_Questions/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Archit-29/DSA_Questions/tree/main/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0076-minimum-window-substring](https://github.com/Archit-29/DSA_Questions/tree/main/0076-minimum-window-substring/) | Hard |
+| [0079-word-search](https://github.com/Archit-29/DSA_Questions/tree/main/0079-word-search/) | Medium |
 | [0125-valid-palindrome](https://github.com/Archit-29/DSA_Questions/tree/main/0125-valid-palindrome/) | Easy |
 | [0131-palindrome-partitioning](https://github.com/Archit-29/DSA_Questions/tree/main/0131-palindrome-partitioning/) | Medium |
 | [0344-reverse-string](https://github.com/Archit-29/DSA_Questions/tree/main/0344-reverse-string/) | Easy |
@@ -180,6 +182,7 @@
 | [0040-combination-sum-ii](https://github.com/Archit-29/DSA_Questions/tree/main/0040-combination-sum-ii/) | Medium |
 | [0051-n-queens](https://github.com/Archit-29/DSA_Questions/tree/main/0051-n-queens/) | Hard |
 | [0078-subsets](https://github.com/Archit-29/DSA_Questions/tree/main/0078-subsets/) | Medium |
+| [0079-word-search](https://github.com/Archit-29/DSA_Questions/tree/main/0079-word-search/) | Medium |
 | [0090-subsets-ii](https://github.com/Archit-29/DSA_Questions/tree/main/0090-subsets-ii/) | Medium |
 | [0131-palindrome-partitioning](https://github.com/Archit-29/DSA_Questions/tree/main/0131-palindrome-partitioning/) | Medium |
 ## Bit Manipulation
@@ -230,4 +233,12 @@
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0051-n-queens](https://github.com/Archit-29/DSA_Questions/tree/main/0051-n-queens/) | Hard |
+## Depth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0079-word-search](https://github.com/Archit-29/DSA_Questions/tree/main/0079-word-search/) | Medium |
+## Matrix
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0079-word-search](https://github.com/Archit-29/DSA_Questions/tree/main/0079-word-search/) | Medium |
 <!---LeetCode Topics End-->
